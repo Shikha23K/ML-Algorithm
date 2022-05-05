@@ -28,8 +28,6 @@ Y_p_train=m.predict(XTrain[:,np.newaxis])
 # Predicting the Test set results
 Y_p=m.predict(XTest[:,np.newaxis])#predicting salary
 
-print(m.coef_)
-
 # Visualising the Training set results
 plt.scatter(XTrain,YTrain)
 plt.plot(XTrain,Y_p_train,color='brown')
